@@ -1,4 +1,10 @@
+---
+marp: true
+---
+
 # CSS Syntax
+
+---
 
 ## Anatomy of a CSS rule
 
@@ -18,14 +24,16 @@ selector {
 }
 ```
 
+---
+
 ## Targeting HTML elements for styling
 
 By HTML element name:
 
 ```css
-/* <michaels-element>Hello world!</michaels-element> */
+/* <bobs-element>Hello world!</bobs-element> */
 
-michaels-element {
+bobs-element {
   background-color: red;
 }
 
@@ -37,38 +45,46 @@ h1 {
 With a class:
 
 ```css
-/* <div class=”michaels-class”></div> */
+/* <div class=”bobs-class”></div> */
 
-.michaels-class {
+.bobs-class {
   background-color: red;
 }
 ```
+
+---
 
 ## Overrides
 
 If there are duplicates, the last one down will apply:
 
 ```css
-michaels-element {
+bobs-element {
   font-size: 64px;
 }
 
-michaels-element {
+bobs-element {
   font-size: 24px;
 }
 ```
 
+---
+
+## Specificity
+
 Selectors are be weighted (by “specificity”) when you combine them:
 
 ```css
-div.michaels-class {
+div.bobs-class {
   background-color: green;
 }
 
-.michaels-class {
+.bobs-class {
   background-color: red;
 }
 ```
+
+---
 
 ## Variables/Custom Properties
 
@@ -92,7 +108,11 @@ img {
 }
 ```
 
-Use in calculations with the `calc()` keyword:
+---
+
+## Calculations
+
+Use custom properties in calculations with the `calc()` keyword:
 
 ```css
 h1 {

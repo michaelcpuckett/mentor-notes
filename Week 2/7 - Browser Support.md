@@ -1,10 +1,22 @@
+---
+marp: true
+----
+
 # Browser Support
+
+---
 
 ## Where does CSS come from?
 
 CSS is changing all the time.
 
-Over the years, new CSS has given web developers new powers: media queries, Photoshop-style filters, animations, and more.
+Over the years, new CSS has given web developers new powers:
+
+- Media queries
+- Animations and transitions
+- Photoshop-style filters
+
+---
 
 New CSS properties and syntax are introduced through an open process that includes the companies that design and code web browser engines:
 
@@ -23,11 +35,15 @@ Gecko
 
 Google, Microsoft, Apple, and Mozilla listen to developer input and decide together whether to make and implement changes to the CSS specification.
 
+---
+
 ## Cross-Browser Testing
 
 Unfortunately, the browsers may have slight differences in their imlementations.
 
 It's important to check the apperance and functionality of a web page in all browsers, because there might be differences or even bugs.
+
+---
 
 ## Automatic Updates
 
@@ -39,7 +55,7 @@ Now all browsers are "evergreen" one-time downloads that update themselves autom
 
 There are some cases where older browsers need to be considered, but now it's easier to assume that most users are on the latest technology.
 
-When you discover new CSS, you can check the website caniuse.com to see which browsers have implemented it.
+---
 
 ## Example: CSS Nesting
 
@@ -57,7 +73,9 @@ To target these elements:
 </div>
 ```
 
-Old Style:
+---
+
+## Old Style of CSS Nesting
 
 ```css
 .a {
@@ -73,7 +91,9 @@ Old Style:
 }
 ```
 
-Since 2023:
+---
+
+## CSS Nesting Since 2023
 
 ```css
 .a {
@@ -88,5 +108,11 @@ Since 2023:
   }
 }
 ```
+
+---
+
+## caniuse.com
+
+When you discover new CSS, you can check the website caniuse.com to see which browsers have implemented it.
 
 For browser support, see: https://caniuse.com/css-nesting

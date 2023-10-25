@@ -1,8 +1,22 @@
+---
+marp: true
+---
+
 # CSS Media Queries
+
+---
 
 ## Targeting different screen widths
 
 The point at which the layout switches from one design to another is called a breakpoint.
+
+![height:250](breakpoints.svg)
+
+---
+
+## Building Mobile-First
+
+Building mobile-first means mobile styles are not in a media query.
 
 ```css
 /* Mobile */
@@ -25,7 +39,7 @@ body {
 }
 ```
 
-Building mobile-first means mobile styles are not in a media query.
+---
 
 ## Handling user preferences
 
@@ -46,6 +60,10 @@ body {
   }
 }
 ```
+
+---
+
+## Handling Accessibility Preferences
 
 Some system preferences define accessibility settings.
 

@@ -1,4 +1,10 @@
+---
+marp: true
+---
+
 # CSS Box Model
+
+---
 
 ## Web layout is the arrangement of boxes
 
@@ -6,17 +12,21 @@ Everything in web design is a box. Not everything necessarily looks like a box, 
 
 The size and shape of an HTML element are determined by its contents, unless given an explicit height or width.
 
+---
+
 ## Margin, Border, and Padding
 
 Diagram of the Box Model:
 
-https://every-layout.dev/images/illustrations/boxes_box-model.svg
+![height:250](box_model.svg)
 
 An HTML element can have:
 
 - Border
 - Outer margin
 - Inner padding
+
+---
 
 ## Debug the box model using the web inspector
 

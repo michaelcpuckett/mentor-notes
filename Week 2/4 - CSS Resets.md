@@ -1,4 +1,10 @@
+---
+marp: true
+---
+
 # CSS Resets
+
+---
 
 ## Overriding Browser Styles
 
@@ -18,6 +24,10 @@ img {
   max-width: 100%;
 }
 ```
+
+---
+
+## Inspecting Browser Styles
 
 You can use the Web Inspector to see the browser's default styles.
 

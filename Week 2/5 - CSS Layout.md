@@ -1,4 +1,10 @@
+---
+marp: true
+---
+
 # CSS Layout
+
+---
 
 ## Block Layout
 
@@ -7,6 +13,8 @@
 - Takes up all of the available horizontal space
 - Block elements stack on top of each other
 - Best for blocks of flowing text
+
+---
 
 ## Flex Layout
 
@@ -19,6 +27,8 @@
 - Children can wrap if there’s too many to fit in one row/column.
   - `flex-wrap: wrap`
 
+---
+
 ## Grid Layout
 
 - `display: grid`
@@ -26,14 +36,14 @@
 - Children flow in two dimensions, determined by parent.
 - Parent defines the size of children.
 
+---
+
 ## Centering
 
-- Horizontally
-
 ```html
-<div class="horizontally-centered">Hello world!</div>
+<div class="centered">Hello world!</div>
 <style>
-  .horizontally-centered {
+  .centered {
     display: flex; /* or display: grid */
     height: 100%;
     place-items: center;
@@ -42,16 +52,17 @@
 </style>
 ```
 
-- Vertically
+---
+
+## Centering Block Elements Horizontally
 
 ```html
-<div class="vertically-centered">Hello world!</div>
+<div class="horizontally-centered">Hello world!</div>
 <style>
-  .vertically-centered {
-    display: flex; /* or display: grid */
-    height: 100%;
-    place-items: center;
-    place-content: center;
+  .horizontally-centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 </style>
 ```
