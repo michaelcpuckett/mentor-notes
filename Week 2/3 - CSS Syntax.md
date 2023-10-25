@@ -13,7 +13,9 @@ CSS rules have 3 parts:
 ```css
 /* <selector></selector> */
 
-selector { property: value; }
+selector {
+  property: value;
+}
 ```
 
 ## Targeting HTML elements for styling
@@ -59,7 +61,7 @@ michaels-element {
 Selectors are be weighted (by “specificity”) when you combine them:
 
 ```css
-div.michaels-class  {
+div.michaels-class {
   background-color: green;
 }
 

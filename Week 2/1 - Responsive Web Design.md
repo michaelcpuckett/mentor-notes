@@ -2,7 +2,7 @@
 
 ## History lesson
 
-The core idea behind Responsive Web Design is using the same HTML at different screen sizes, such as mobile devices and widescreen desktops.
+The idea behind Responsive Web Design is using the same HTML at different screen sizes, such as mobile devices and widescreen desktops.
 
 This technique has been an industry best practice for over a decade because it avoids the need to create separate HTML for different screen sizes.
 
@@ -23,14 +23,14 @@ With more complex layouts, designers must make decisions about how the content s
 
 At least two design mockups are needed to build a web page — horizontal (desktop) and vertical (mobile).
 
-Even with two mockups, designers cannot possibly foresee every possible screen size, combined with other factors like zoom level and system settings. This means deferring to the browser’s natural behavior whenever possible.
+Even with two mockups, designers cannot foresee every possible screen size, combined with other factors like zoom level and system settings. This means deferring to the browser’s natural behavior whenever possible.
 
 Designers must also decide whether the layout will be Adaptive or fully Responsive.
 
 1. Adaptive Layouts
    - Have fixed widths at different breakpoints
 2. Responsive Layouts
-   - No fixed widths, mostly percentage-based widths
+   - No fixed widths, mostly percentage-based
 
 ## Mobile considerations
 

@@ -8,7 +8,9 @@ The size and shape of an HTML element are determined by its contents, unless giv
 
 ## Margin, Border, and Padding
 
-[https://every-layout.dev/images/illustrations/boxes_box-model.svg](https://every-layout.dev/images/illustrations/boxes_box-model.svg)
+Diagram of the Box Model:
+
+https://every-layout.dev/images/illustrations/boxes_box-model.svg
 
 An HTML element can have:
 

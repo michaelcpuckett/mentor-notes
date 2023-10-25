@@ -1,6 +1,6 @@
 # CSS Media Queries
 
-# Targeting different screen widths
+## Targeting different screen widths
 
 The point at which the layout switches from one design to another is called a breakpoint.
 
@@ -27,7 +27,7 @@ body {
 
 Building mobile-first means mobile styles are not in a media query.
 
-# Handling user preferences
+## Handling user preferences
 
 When possible, design to fit the user’s system preferences.
 
@@ -53,8 +53,8 @@ Animations should always be gated so as not to disturb those with motion disorde
 
 ```css
 @media (prefers-reduced-motion: no-preference) {
-	.spinner {
-	  animation: spin-around-the-page 2s;
-	}
+  .spinner {
+    animation: spin-around-the-page 2s;
+  }
 }
 ```
