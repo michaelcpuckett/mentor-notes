@@ -32,7 +32,7 @@ body {
 }
 
 /* Wide screen */
-@media (min-width: 12000px) {
+@media (min-width: 1200px) {
   body {
     font-size: 20px;
   }

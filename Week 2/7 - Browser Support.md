@@ -113,6 +113,6 @@ To target these elements:
 
 ## caniuse.com
 
-When you discover new CSS, you can check the website caniuse.com to see which browsers have implemented it.
-
 For browser support, see: https://caniuse.com/css-nesting
+
+When you discover new CSS, you can check the website caniuse.com to see which browsers have implemented it.

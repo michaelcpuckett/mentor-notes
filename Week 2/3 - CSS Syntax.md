@@ -72,7 +72,7 @@ bobs-element {
 
 ## Specificity
 
-Selectors are be weighted (by “specificity”) when you combine them:
+Selectors are weighted (by “specificity”) when you combine them:
 
 ```css
 div.bobs-class {
